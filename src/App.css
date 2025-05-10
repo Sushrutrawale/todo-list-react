@@ -1,8 +1,43 @@
 .app-body{
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #faaca8, #ddd6f3);
+  height: 100vh;
 }
-header{
+.navbar{
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.1);
   position: sticky;
+}
+.heading-gradiant{
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background-clip: text;
+  color: transparent;
+  font-size: 100px;
+}
+.authr-card{
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  text-align: center;
+}
+.authr-card h2 {
+  color: #333;
+}
+.auth-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.social-links{
+  padding: 20px;
+  padding-top: 8%;
+}
+.footer-nav{
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.copy-right{
+  padding: 10px;
+  background-color: black;
 }
