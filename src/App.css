@@ -1,17 +1,32 @@
 .app-body{
   background: linear-gradient(to right, #faaca8, #ddd6f3);
-  height: 100vh;
+  height: 100%;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .navbar{
-  padding: 5px;
+  padding: 0 20px;
   background-color: rgba(0, 0, 0, 0.1);
-  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px black;
+}
+.navbar > div {
+  display: flex;
+  align-items: center;
 }
 .heading-gradiant{
   background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   background-clip: text;
   color: transparent;
   font-size: 100px;
+  font-weight: bolder;
 }
 .authr-card{
   background: #ffffff;
@@ -40,4 +55,300 @@
 .copy-right{
   padding: 10px;
   background-color: black;
+}
+#contact {
+  background: linear-gradient(to right, #fff1eb, #ace0f9);
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 30px;
+  margin: 30px;
+  box-shadow: 0px 5px 10px black;
+}
+#about {
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 30px;
+  margin: 30px;
+  box-shadow: 0px 5px 10px black;
+}
+.background-link-color{
+  background-color: transparent;
+  border: none;
+}
+.text-link{
+  color: black;
+}
+.background-link-color:hover{
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+.background-link-color:hover .text-link{
+  color: white;
+}
+.background-link-color:hover .icon{
+  transform: translateY(-5px);
+  transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.icon{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.account-icon {
+  font-size: 2rem; /* Default size */
+}
+.authr-card button {
+    margin-left:15px;
+    margin-right: 15px;
+  }
+.footer-nav-link:hover{
+  color: red;
+}
+.socail-link-anchor{
+  color: black;
+}
+.social-link-span{
+  background-color: white;
+}
+.social-link-span:hover{
+  background-color: black;
+}
+.social-link-span:hover .socail-link-anchor{
+  color: white;
+}
+.social-link-icons{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-span:hover .social-link-icons{
+  transform: translateY(-5px);
+  transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.start-task{
+  width: 50%;
+}
+.login-title{
+  background: linear-gradient(to right, #333333, #dd1818);
+  background-clip: text;
+  color: transparent;
+  font-size: 45px;
+}
+.login-title-container{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.home-button-container{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.register-card{
+  width: 120%;
+  margin-left: -20px;
+}
+.register-title{
+  background: linear-gradient(to right, #333333, #dd1818);
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+}
+.registration-title-container{
+  margin-left: 15px;
+  margin-right: 4px;
+}
+.dashboard-title{
+  background: linear-gradient(to right, #e53935, #e35d5b);
+  background-clip: text;
+  color: transparent;
+  font-size: 35px;
+}
+.list-link{
+  color: black;
+}
+.list-box{
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-box:hover{
+  background: black;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-box:hover .list-link{
+  color: white;
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dashboard-icon-button{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dashboard-icon-button:hover{
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dashboard-icon{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dashboard-icon-button:hover .dashboard-icon{
+  color: black;
+  transform: translateY(-4px);
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.save-btn{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cancel-btn{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.save-btn:hover{
+  transform: scale(1.1) translateY(-3px);
+  transition:0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.cancel-btn:hover{
+  transform: scale(1.1) translateY(-3px);
+  transition:0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.account-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+.account-btn:hover{
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+.account-login-title {
+  opacity: 0;
+  transform: translateX(-8px);
+  font-size: 14px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.account-icon {
+  transition: transform 0.3s ease;
+}
+.account-btn:hover .account-login-title {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.account-btn:hover .account-icon {
+  transform: scale(0.85);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .nav, .navbar > div {
+    margin: 2px 0;
+  }
+
+  .heading-gradiant {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .authr-card {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .authr-card button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .copy-right p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .account-icon {
+    font-size: 3rem; /* Larger size on mobile */
+    float: right;
+  }
+
+  .speed-dial{
+    top: 30px;
+    left: 25px;
+  }
+
+  #contact {
+    background: linear-gradient(to right, #fff1eb, #ace0f9);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: unset;
+    margin-right: unset;
+    box-shadow: 0px 5px 10px black;
+  }
+
+  #about {
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: unset;
+    margin-right: unset;
+    box-shadow: 0px 5px 10px black;
+  }
+
+  .start-task{
+    width: 100%;
+  }
+
+  .login-title{
+    font-size: 30px;
+  }
+
+  .login-title-container{
+    padding-left: 9px;
+    padding-right: 5px;
+  }
+
+  .home-button-container{
+    padding-left: 5px;
+    padding-right: -8px;
+  }
+
+  .registration-title-container{
+    padding-left: 25px;
+  }
+
+  .register-title{
+    font-size: 20px;
+  }
+
+  .register-card{
+    margin-left: -25px;
+    width: 120%;
+  }
+
+
 }
