@@ -28,7 +28,7 @@ export function Register(){
                     <span className=' p-2 rounded-5 mx-4 fw-semibold background-link-color'><Link variant="container" className='mx-2 text-decoration-none text-link' to="/">Home <HomeTwoTone className='icon'/></Link></span>
                 </div>
             </div>
-            <div className="d-flex flex-column justify-content-center align-items-center mb-4">
+            <div className="d-flex flex-column justify-content-center align-items-center mb-4 register-body">
                 <div className="heading-gradiant" style={{fontSize:'80px'}}>To do list</div>
                 <div className="my-4"> 
                     <div className="card rounded-3 p-4 my-4 register-card" style={{boxShadow:'0px 5px 10px black',background: 'linear-gradient(to right, #a1ffce, #faffd1)'}}>

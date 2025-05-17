@@ -29,7 +29,7 @@ export function Dashboard(){
                     <span className=' p-2 rounded-5 mx-1 fw-semibold background-link-color'><Link variant="container" className='mx-2 text-decoration-none text-link' to="/login">Logout <LogoutTwoTone className='icon'/></Link></span>
                 </div>
             </div>
-            <div className="m-4">
+            <div className="m-4 dashboard-body">
                 <h3>Hello ! <b>Rakesh</b></h3>
                 <div className="d-flex justify-content-center">
                     <div className="row list-row d-flex w-100" style={{ maxWidth: '800px' }}>

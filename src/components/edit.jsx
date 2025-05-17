@@ -39,7 +39,7 @@ export function Edit(){
                     <span className=' p-2 rounded-5 mx-1 fw-semibold background-link-color'><Link variant="container" className='mx-2 text-decoration-none text-link' to="/login">Logout <LogoutTwoTone className='icon'/></Link></span>
                 </div>
             </div>
-            <div className="m-4">
+            <div className="m-4 edit-body">
                 <div className="d-flex flex-column justify-content-center align-items-center w-100">
                     <div className="bg-light p-4 rounded-5" style={{  background: 'linear-gradient(to right,  #00b4db, #0083b0)'}}>
                         <h3 className="my-3"><EditTwoTone/> Edit List</h3>

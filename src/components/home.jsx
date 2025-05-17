@@ -42,7 +42,7 @@ export function Home(){
                 </div>
                 </div>
             </div>
-            <main className='container-fluid' id="home">
+            <main className='container-fluid home-body' id="home">
                 <div className='row p-4'>
                 <div className='col d-flex justify-content-center align-items-center'>
                     <div className='text-uppercase heading-gradiant'>To Do <br/> List</div>

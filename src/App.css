@@ -241,6 +241,31 @@
 }
 
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.home-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+.login-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+.register-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+.dashboard-body{
+  animation: fadeInUp 0.8s ease-out;
+}
+.edit-body{
+  animation: fadeInUp 0.8s ease-out;
+}
 
 
 
